@@ -128,7 +128,7 @@
 
         // Dynamically adding a GitHub icon to the cards
         const githubIcon = document.createElement("img");
-        githubIcon.setAttribute('src', '/img/github-logo-24.png');
+        githubIcon.setAttribute('src', './img/github-logo-24.png');
         githubIcon.setAttribute('alt', 'gitHub icon')
 
 

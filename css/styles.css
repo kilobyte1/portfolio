@@ -258,7 +258,7 @@ section .title::after {
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    background: url("/img/banner3.jpg") no-repeat center;
+    background: url("/img/banner3.JPG") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
@@ -754,7 +754,7 @@ footer {
     }
 
     .home {
-        background: url("/img/banner2.jpg") no-repeat center;
+        background: url("/img/banner2.JPG") no-repeat center;
     }
 
     section {
@@ -903,7 +903,7 @@ footer {
     }
 
     .home {
-        background: url("/img/banner.jpg") no-repeat center;
+        background: url("/img/banner.JPG") no-repeat center;
     }
 
     .home .home-content span {
