@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>P2562416</title>
+</head>
+
+<body>
+  <header>
+    <!-- Scroll to Top Button -->
+    <div class="scroll-up-btn">
+      <i><img src="img/chevron-up-solid-24.png" alt="scroll to the top button"> </i>
+    </div>
+    <!-- Navigation Menu -->
+    <nav class="navbar" aria-label="Main Navigation">
+      <div class="max-width">
+        <!-- Logo -->
+        <div class="logo"><a href="#"><span>R</span>K</a></div>
+        <!-- Menu Links -->
+        <ul class="menu">
+          <li><a href="#home" class="menu-link">Home</a></li>
+          <li><a href="#about" class="menu-link">About Me</a></li>
+          <li><a href="#projects" class="menu-link">Projects</a></li>
+          <li><a href="#skills" class="menu-link">Skills</a></li>
+          <li><a href="#contact" class="menu-link">Contact</a></li>
+        </ul>
+        <!-- Menu Toggler for Responsive Design -->
+        <button id="menuToggler" aria-label="Toggle menu">&#8801;</button>
+
+      </div>
+    </nav>
+
+  </header>
+  <main>
+    <!-- Home section Content -->
+
+    <section class="home" id="home" aria-label="Home Section">
+      <div class="max-width">
+        <div class="home-content">
+          <span>Software Developer/ Engineer</span>
+          <h1 class="text-1"><strong>Richard Kankam</strong></h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section content -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <div class="max-width">
+        <h2 id="about-heading" class="title">About me</h2>
+        <div class="about-content">
+          <div class="column left">
+            <img src="img/profile-1C.jpg" alt="Portrait of Richard Kankam" aria-describedby="about-description">
+          </div>
+          <div class="column right">
+            <div class="text">I'm Richard</div>
+            <p id="about-description">Highly motivated and dedicated Computer Science student in my final year
+              with a passion for information technology and a strong desire to start a
+              career in the field. Proficient in object-oriented programming, system design,
+              development, and testing. Curious attitude, strong problem-solving abilities and
+              ability to think critically when faced with technical problems. Quick learner with
+              the ability and desire to build technical knowledge. Thrives in collaborative
+              environments and is committed to contributing to team success in achieving company
+              objectives.</p>
+            <!-- Download CV Link -->
+            <a href="#" id="download-cv" role="button" aria-label="Download Richard Kankam's CV">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- projects content -->
+    <section class="projects" id="projects" aria-labelledby="projects-heading">
+      <div class="max-width">
+        <h2 id="projects-heading" class="title">My projects</h2>
+        <div class="pro-content" id="repos" role="group" aria-label="List of repositories" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- skills section content 
+    since I used this manual progress bar, there are a lot of accessibitlity features to help screen readers
+    -->
+    <section class="skills" id="skills" aria-labelledby="skills-heading">
+      <div class="max-width">
+        <h2 id="skills-heading" class="title">My skills</h2>
+        <div class="skills-container">
+          <div class="skill" aria-labelledby="html-skill">
+            <div class="skill-name" id="html-skill">HTML</div>
+            <div class="skill-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90"
+              aria-label="HTML">
+              <div class="skill-progress html"></div>
+            </div>
+          </div>
+          <div class="skill" aria-labelledby="css-skill">
+            <div class="skill-name" id="css-skill">CSS</div>
+            <div class="skill-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"
+              aria-label="CSS">
+              <div class="skill-progress css"></div>
+            </div>
+          </div>
+
+          <div class="skill" aria-labelledby="javaScript-skill">
+            <div class="skill-name" id="javaScript-skill">JavaScript</div>
+            <div class="skill-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="72"
+              aria-label="JavaScript">
+              <div class="skill-progress javascript"></div>
+            </div>
+          </div>
+
+          <div class="skill" aria-labelledby="react-skill">
+            <div class="skill-name" id="react-skill">React</div>
+            <div class="skill-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70"
+              aria-label="React">
+              <div class="skill-progress react"></div>
+            </div>
+          </div>
+
+          <div class="skill" aria-labelledby="Node.js-skill">
+            <div class="skill-name" id="Node.js-skill">Node.js</div>
+            <div class="skill-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65"
+              aria-label="Node.js">
+              <div class="skill-progress nodejs"></div>
+            </div>
+          </div>
+
+          <div class="skill" aria-labelledby="python-skill">
+            <div class="skill-name" id="python-skill">Python</div>
+            <div class="skill-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"
+              aria-label="Python">
+              <div class="skill-progress python"></div>
+            </div>
+          </div>
+
+          <div class="skill" aria-labelledby="git-skill">
+            <div class="skill-name" id="git-skill">Git</div>
+            <div class="skill-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"
+              aria-label="Git">
+              <div class="skill-progress git"></div>
+            </div>
+          </div>
+
+          <div class="skill" aria-labelledby="problem-solving-skill">
+            <div class="skill-name" id="problem-solving-skill">Problem Solving</div>
+            <div class="skill-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90"
+              aria-label="Problem Solving">
+              <div class="skill-progress problem-solving"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section content -->
+    <section class="contact" id="contact" aria-label="contact me">
+      <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <!-- Contact Information -->
+            <h2 class="text">Get in Touch with me</h2>
+            <!-- Social Media Icons -->
+            <div class="icons">
+              <div class="row">
+                <i><img src="img/user-solid-24.png" class="socials-img" alt="user icon"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="sub-title">Richard Kankam</div>
+                </div>
+              </div>
+              <div class="row">
+                <i><img src="img/location.png" class="socials-img" alt="location icon"></i>
+                <div class="info">
+                  <div class="head">Address</div>
+                  <address class="sub-title">UK, Leicester</address>
+                </div>
+              </div>
+              <div class="row">
+                <i><img src="img/envelope-solid-24.png" class="socials-img" alt="email icon"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">
+                    <a href="mailto:p2562416@my365.dmu.ac.uk"
+                      aria-label="Email: p2562416@my365.dmu.ac.uk">p2562416@my365.dmu.ac.uk</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="info">
+                  <ul class="social-media">
+                    <li><a href="https://join.skype.com/invite/KQQgjEsuMp3s" aria-label="Skype">
+                        <i><img src="img/skype-logo-24.png" class="socials-img" alt="Skype Icon"></i>
+                      </a></li>
+                    <li><a href="https://www.linkedin.com/in/richard-kankam-673292175/" aria-label="LinkedIn">
+                        <i><img src="img/linkedin-logo-24.png" class='socials-img' alt="LinkedIn icon"></i>
+                      </a></li>
+                    <li><a href="#" aria-label="Facebook">
+                        <i><img src="img/facebook-logo-24.png" class='socials-img' alt="Facebook icon"></i>
+                      </a></li>
+                    <li><a href="#" aria-label="Twitter">
+                        <i><img src="img/twitter-logo-24.png" class='socials-img' alt="Twitter icon"></i>
+                      </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column right">
+            <!-- Contact Form -->
+            <form method="post" id="sendMessage" name="sendMessage" aria-describedby="contact-form">
+              <fieldset>
+                <legend>Fill out the form to get in touch</legend>
+                <div class="fields" id="contact-form">
+                  <!-- Dynamic Alert Message -->
+                  <h3 id="customAlert" aria-live="assertive">Thank you for messaging me. I will certainly
+                    get back to you.</h3>
+                  <!-- Form Fields -->
+                  <div class="field name">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" autocomplete="name" placeholder="Name" required
+                      aria-describedby="name-error">
+                    <div id="name-error" aria-live="assertive"></div>
+                  </div>
+                  <div class="field email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" autocomplete="email" placeholder="Email" required
+                      aria-describedby="email-error">
+                    <div id="email-error" aria-live="assertive"></div>
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="subject">Subject:</label>
+                  <input type="text" id="subject" name="subject" placeholder="Subject" required
+                    aria-describedby="subject-error">
+                  <div id="subject-error" aria-live="assertive"></div>
+                </div>
+                <div class="field textarea">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" placeholder="Message.." required
+                    aria-describedby="message-error"></textarea>
+                  <div id="message-error" aria-live="assertive"></div>
+                  <div id="wordCount" aria-live="polite">Words left: 250</div>
+                </div>
+              </fieldset>
+              <!-- Submit Button -->
+              <div class="button-area">
+                <button type="submit" aria-label="Send Message">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer aria-label="Website Footer">
+      <p>&copy; 2024 Richard Kankam. All rights reserved.</p>
+    </footer>
+
+  </main>
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
